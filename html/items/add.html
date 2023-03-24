@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Todo Application - Add Item</title>
+    <base href="/" />
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Todo Application - Add Item</h1>
+      <nav>
+        <a href="example.html">Back to todo list</a>
+      </nav>
+      <p>Add a todo item</p>
+    </header>
+    <main>
+      <form action="">
+        <div class="form-row">
+          <label for="task">task</label>
+          <input
+            type="text"
+            name="task"
+            id="task"
+            required
+            placeholder="Enter you task"
+          />
+        </div>
+        <div class="form-row">
+          <label for="list">List</label>
+          <select name="list" id="list">
+            <option value="today">Today</option>
+            <option value="tomorrow">Tomorrow</option>
+            <option value="future">Future</option>
+          </select>
+        </div>
+        <div class="submit-row">
+          <input type="submit" value="Add Task" />
+        </div>
+      </form>
+    </main>
+
+    <!-- 01:14 -->
+
+    <footer>&copy: 2023 Aninoss Pro</footer>
+  </body>
+</html>

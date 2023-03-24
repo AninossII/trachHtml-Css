@@ -1,0 +1,78 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    font-family: 'Lato', sans-serif;
+    background-color: #ddd;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.width-container {
+    max-width: 900px;
+    min-width: 600px;
+    margin: auto;
+}
+
+header {
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #7d7e7d 0%, #0e0e0e 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+
+    border-bottom: 2px solid #fff;
+}
+
+header .width-container {
+    background-color: #222;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 25px;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+footer {
+    font-size: 8pt;
+    color: #777;
+}
+
+section.author {
+    width: 40%;
+    float: right;
+}
+
+section.news {
+    margin-right: 42%;
+}
+
+.site-info-container {
+    font-size: 20px;
+    border-top: 2px solid black;
+    margin-top: 10px;
+}
+
+.site-info-container p {
+    line-height: 1.6;
+}
+
+.site-info-container h1 {
+    font-size: 25px;
+}
+
+.site-info-container h1 span {
+    font-size: 10pt;
+    color: #777;
+    text-transform: lowercase;
+}
